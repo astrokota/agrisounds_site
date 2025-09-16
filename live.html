@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agrisounds · Live Dates</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js" ></script>
+</head>
+<body data-page="live">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">Agrisounds</a>
+            <button class="nav-toggle" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+            <nav id="nav" class="site-nav" aria-label="Main">
+                <a href="live.html" class="active">Live Dates</a>
+                <a href="videos.html">Songs/Videos</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="container">
+            <h1 class="page-title">Upcoming Shows</h1>
+            <p class="page-intro">Dates load from <code>data/shows.json</code>. EDIT HERE.</p>
+
+            <div id="shows" class="shows-list" aria-live="polite">
+                <!--Populated by script.js-->
+            </div>
+
+            <template id="show-item-template">
+                <article class="show-card">
+                    <div class="show-date">
+                        <span class="show-month"></span>
+                        <span class="show-day"></span>
+                    </div>
+                    <div class="show-details">
+                        <h2 class="show-venue"></h2>
+                        <p class="show-meta">
+                            <span class="show-city"></span> • <span class="show-time"></span> • <span class="show-price"></span>
+                        </p>
+                    </div>
+                    <div class="show-cta">
+                        <a class="btn" href="#" target="_blank" rel="noopener">Tickets</a>
+                    </div>
+                </article>
+            </template>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Agrisounds • All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

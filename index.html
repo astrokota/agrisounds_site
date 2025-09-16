@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agrisounds · Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js" ></script>
+</head>
+<body data-page="home">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">Agrisounds</a>
+            <button class="nav-toggle" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+            <nav id="nav" class="site-nav" aria-label="Main">
+                <a href="live.html">Live Dates</a>
+                <a href="videos.html">Songs/Videos</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-media">
+                <!--Placeholder for background video, replace src w/ .mp4-->
+                <video class="hero-video" autoplay muted loop playsinline poster="" id="heroVideo">
+                    <source src="videos/hero.mp4" type="video/mp4" />
+                </video>
+                <!--Backup gradient background-->
+                <div class="hero-image" role="img" aria-label="Agrisounds background"></div>
+            </div>
+
+            <div class="hero-overlay">
+                <h1 class="headline">Agrisounds</h1>
+                <p class="subhead">Field-tested tunes.</p>
+            </div>
+
+            <a class="cta" href="videos.html" aria-label="Go to Songs/Videos page">
+                Click here to listen to our latest video
+            </a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Agrisounds • All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

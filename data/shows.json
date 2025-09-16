@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-09-30",
+    "venue": "The Grain Bin",
+    "city": "Des Moines, IA",
+    "time": "8:00 PM",
+    "price": "$15",
+    "tickets": "https://example.com/tickets/grain-bin"
+  },
+  {
+    "date": "2025-10-31",
+    "venue": "Harvest Fest",
+    "city": "Omaha, NE",
+    "time": "6:30 PM",
+    "price": "Free",
+    "tickets": ""
+  },
+  {
+    "date": "2025-11-30",
+    "venue": "The Silo",
+    "city": "Ames, IA",
+    "time": "9:30 PM",
+    "price": "$10",
+    "tickets": "https://example.com/tickets/silo"
+  }
+]

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agrisounds · Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js" ></script>
+</head>
+<body data-page="contact">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">Agrisounds</a>
+            <button class="nav-toggle" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+            <nav id="nav" class="site-nav" aria-label="Main">
+                <a href="live.html">Live Dates</a>
+                <a href="videos.html">Songs/Videos</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="container">
+            <h1 class="page-title">Contact</h1>
+            <div class="contact-grid">
+                <form id="contact-form" class="card" onsubmit="return handleContactSubmit(event)">
+                    <h2>Send us a message</h2>
+                    <label>
+                        Your Name
+                        <input type="text" name="name" required placeholder="Jane Doe" />
+                    </label>
+                    <label>
+                        Your Email
+                        <input type="email" name="email" required placeholder="you@example.com" />
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" rows="5" required placeholder="Tell us about your event..."></textarea>
+                    </label>
+                    <button class="btn" type="submit">Send</button>
+                    <p class="form-hint">Currently opens email client, swap for server endpoint if desired.</p>
+                </form>
+
+                <aside class="card contact-info">
+                    <h2>Booking & Press</h2>
+                    <p><strong>Email:</strong> <a href="mailto:bikesdakota@gmail.com">bikesdakota@gmail.com</a></p>
+                    <p><strong>Location:</strong>Indianapolis, IN</p>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Agrisounds • All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

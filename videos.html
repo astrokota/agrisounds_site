@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agrisounds · Songs & Videos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js" ></script>
+</head>
+<body data-page="videos">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">Agrisounds</a>
+            <button class="nav-toggle" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+            <nav id="nav" class="site-nav" aria-label="Main">
+                <a href="live.html">Live Dates</a>
+                <a href="videos.html" class="active">Songs/Videos</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="container">
+            <h1 class="page-title">Songs & Videos</h1>
+            <p class="page-intro">Drop .mp4 files/youtube links into <code>/videos</code> folder</p>
+
+            <div class="media-grid">
+                <figure class="media-card">
+                    <video controls preload="metadata" width="100%">
+                        <source src="videos/sample-performance.mp4" type="video/mp4" />
+                    </video>
+                    <figcaption>Sample Performance (placeholder)</figcaption>
+                </figure>
+
+                <figure class="media-card">
+                    <div class="embed">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <figcaption>Live (placeholder)</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Agrisounds • All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
