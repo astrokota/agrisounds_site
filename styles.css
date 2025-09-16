@@ -94,4 +94,14 @@ input, textarea{width:100%; margin-top:.35rem; background:#0f1016; color:var(--t
   .site-nav{display:none}
   .nav-toggle{display:block}
   .contact-grid{grid-template-columns:1fr}
+
 }
+
+/* Global link styling */
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+a:visited  { color: var(--accent); }
+a:hover, a:focus-visible { filter: brightness(1.1); }
