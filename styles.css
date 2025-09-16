@@ -97,11 +97,9 @@ input, textarea{width:100%; margin-top:.35rem; background:#0f1016; color:var(--t
 
 }
 
-/* Global link styling */
-a {
+/* Link styling (contact page only) */
+body[data-page="contact"] .contact-info a,
+body[data-page="contact"] .contact-info a:visited {
   color: var(--accent);
-  text-decoration: underline;
-  text-underline-offset: 2px;
 }
-a:visited  { color: var(--accent); }
-a:hover, a:focus-visible { filter: brightness(1.1); }
+
