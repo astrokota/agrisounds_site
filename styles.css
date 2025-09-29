@@ -107,4 +107,25 @@ body[data-page="contact"] .contact-info a:visited {
   color: var(--accent);
 }
 
+/* Brand (logo) */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 800;
+  letter-spacing: .5px;
+}
+.brand img {
+  height: 32px;
+  width: auto;
+  display: block;
+  border-radius: 6px;
+}
+.brand:hover img {
+  filter: drop-shadow(0 0 10px rgba(127, 224, 122, .35));
+}
+
+
 
