@@ -31,6 +31,35 @@
                 <!--Populated by script.js-->
             </div>
 
+            <section aria-labelledby="list-heading" class="mt-4">
+                <h2 id="list-heading" class="visually-hidden">Upcoming Shows (List)</h2>
+                <ul id="shows-ul" class="shows-ul"></ul>
+                <noscript>
+                    <ul>
+                        <li>Nov 15 - The Melody Inn (Indianpolis) - 8:00 PM - $15</li>
+                        <li>Dec 01 - Riverfront Auditorium (Cincinnati) - 7:30 PM - $15</li>
+                        <li>Dec 21 - Barnyard Benny's (Evansville) - 6:30 PM - $20</li>
+                    </ul>
+                </noscript>
+            </section>
+
+            <section aria-labelledby="table-heading" class="mt-4">
+                <h2 id="table-heading" class="visually-hidden">Upcoming Shows (Table)</h2>
+                <table class="shows-table" id="shows-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Venue</th>
+                            <th scope="col">City</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Tickets</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+
             <template id="show-item-template">
                 <article class="show-card">
                     <div class="show-date">
@@ -59,5 +88,6 @@
 </body>
 
 </html>
+
 
 
