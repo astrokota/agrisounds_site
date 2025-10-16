@@ -1,26 +1,26 @@
 [
   {
-    "date": "2025-09-30",
-    "venue": "The Grain Bin",
-    "city": "Des Moines, IA",
+    "date": "2025-11-15",
+    "venue": "The Melody Inn",
+    "city": "Indianapolis, IN",
     "time": "8:00 PM",
     "price": "$15",
-    "tickets": "https://example.com/tickets/grain-bin"
+    "tickets": "https://example.com/tickets/melody-inn"
   },
   {
-    "date": "2025-10-31",
-    "venue": "Harvest Fest",
-    "city": "Omaha, NE",
+    "date": "2025-12-01",
+    "venue": "RiverFront Auditorium",
+    "city": "Cincinnati, OH",
+    "time": "8:00 PM",
+    "price": "$15",
+    "tickets": "https://example.com/tickets/riverfront-auditorium"
+  },
+  {
+    "date": "2025-12-21",
+    "venue": "Barnyard Benny's",
+    "city": "Evansville, IN",
     "time": "6:30 PM",
-    "price": "Free",
-    "tickets": ""
-  },
-  {
-    "date": "2025-11-30",
-    "venue": "The Silo",
-    "city": "Ames, IA",
-    "time": "9:30 PM",
-    "price": "$10",
-    "tickets": "https://example.com/tickets/silo"
+    "price": "$20",
+    "tickets": "https://example.com/tickets/barnyard-bennys"
   }
 ]
